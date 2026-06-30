@@ -108,11 +108,102 @@
         </div>
         <a class="btn btn-secondary" href="https://wa.me/573052933792?text=Hola%20Corporaci%C3%B3n%20Factor%20C%2C%20quiero%20encontrar%20el%20sindicato%20que%20corresponde%20a%20mi%20sector%20o%20lugar%20de%20trabajo." target="_blank" rel="noopener">No encuentro mi sindicato</a>
       </div>
-      <form class="finder-controls" id="unionFinder" aria-label="Buscador de sindicatos">
-        <label>Sector<select id="sectorFilter"><option value="todos">Todos los sectores</option><option value="salud">Salud</option><option value="publico">Sector público</option><option value="servicios">Servicios públicos</option><option value="industria">Industria</option><option value="educacion">Educación</option><option value="transporte">Transporte</option></select></label>
-        <label>Ciudad o región<input id="cityFilter" type="search" placeholder="Ej. Medellín, Antioquia, Bogotá" /></label>
-        <label>Palabra clave<input id="keywordFilter" type="search" placeholder="Ej. clínica, municipio, hospital" /></label>
-      </form>
+<form class="finder-controls" id="unionFinder" aria-label="Buscador de sindicatos">
+  <label>
+    Sector
+    <select id="sectorFilter">
+      <option value="todos">Todos los sectores</option>
+      <option value="salud">Salud</option>
+      <option value="publico">Sector público</option>
+      <option value="servicios">Servicios y servicios públicos</option>
+      <option value="industria">Industria</option>
+      <option value="educacion">Educación</option>
+      <option value="transporte">Transporte</option>
+      <option value="agro">Agro / rural</option>
+    </select>
+  </label>
+
+  <label>
+    Ciudad o región
+    <input 
+      id="cityFilter" 
+      type="search" 
+      list="citySuggestions"
+      placeholder="Ej. Medellín, Antioquia, Bogotá, Cali, Santander" 
+    />
+    <datalist id="citySuggestions">
+      <option value="Medellín, Antioquia"></option>
+      <option value="Bogotá D.C."></option>
+      <option value="Bogotá D.C. / Colombia"></option>
+      <option value="Cali, Valle del Cauca"></option>
+      <option value="Envigado, Antioquia"></option>
+      <option value="Bucaramanga, Santander"></option>
+      <option value="Barranquilla, Atlántico"></option>
+      <option value="Cartagena, Bolívar"></option>
+      <option value="Pereira, Risaralda"></option>
+      <option value="Manizales, Caldas"></option>
+      <option value="Ibagué, Tolima"></option>
+      <option value="Neiva, Huila"></option>
+      <option value="Montería, Córdoba"></option>
+      <option value="Sincelejo, Sucre"></option>
+      <option value="Santa Marta, Magdalena"></option>
+      <option value="Villavicencio, Meta"></option>
+      <option value="Cúcuta, Norte de Santander"></option>
+      <option value="Tunja, Boyacá"></option>
+      <option value="Popayán, Cauca"></option>
+      <option value="Pasto, Nariño"></option>
+      <option value="Armenia, Quindio"></option>
+      <option value="Yopal, Casanare"></option>
+      <option value="Colombia"></option>
+    </datalist>
+  </label>
+
+  <label>
+    Palabra clave
+    <input 
+      id="keywordFilter" 
+      type="search" 
+      list="keywordSuggestions"
+      placeholder="Ej. clínica, hospital, municipio, universidad, industria" 
+    />
+    <datalist id="keywordSuggestions">
+      <option value="clínica"></option>
+      <option value="hospital"></option>
+      <option value="salud"></option>
+      <option value="seguridad social"></option>
+      <option value="IPS"></option>
+      <option value="enfermería"></option>
+      <option value="municipio"></option>
+      <option value="alcaldía"></option>
+      <option value="servidores públicos"></option>
+      <option value="empleados públicos"></option>
+      <option value="trabajadores oficiales"></option>
+      <option value="entidad pública"></option>
+      <option value="universidad"></option>
+      <option value="educación superior"></option>
+      <option value="docentes"></option>
+      <option value="administrativos"></option>
+      <option value="SENA"></option>
+      <option value="industria"></option>
+      <option value="producción"></option>
+      <option value="bebidas"></option>
+      <option value="servicios públicos"></option>
+      <option value="aseo"></option>
+      <option value="energía"></option>
+      <option value="transporte"></option>
+      <option value="gastronomía"></option>
+      <option value="hoteles"></option>
+      <option value="turismo"></option>
+      <option value="agro"></option>
+      <option value="rural"></option>
+      <option value="campesino"></option>
+      <option value="INVIMA"></option>
+      <option value="Comfenalco"></option>
+      <option value="negociación colectiva"></option>
+      <option value="sindicalización"></option>
+    </datalist>
+  </label>
+</form>
       <div class="union-results" id="unionResults" aria-live="polite"></div>
     </section>
   </main>
