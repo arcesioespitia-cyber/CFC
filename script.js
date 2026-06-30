@@ -7,7 +7,7 @@ const unions = [
     city: 'Medellín, Antioquia',
     keywords: 'clínica medellín quirónsalud salud enfermería administración hospital trabajadores clínica medellín',
     description: 'Sindicato de trabajadoras y trabajadores de la Clínica Medellín, orientado a la defensa del trabajo digno en el sector salud.',
-    logo: 'assets/sindicatos/sintraclinica.png',
+    logo: 'sintraclinica.png',
     contact: `https://wa.me/${FACTOR_C_WHATSAPP}?text=${encodeURIComponent('Hola, quiero orientación sobre SINTRACLÍNICA Medellín.')}`
   },
   {
@@ -16,7 +16,7 @@ const unions = [
     city: 'Envigado, Antioquia',
     keywords: 'municipio envigado entidad pública servidores públicos descentralizadas trabajadores municipales',
     description: 'Organización sindical de trabajadoras y trabajadores municipales y entidades descentralizadas.',
-    logo: 'assets/sindicatos/sintramune.jpg',
+    logo: 'sintramune.jpg',
     contact: `https://wa.me/${FACTOR_C_WHATSAPP}?text=${encodeURIComponent('Hola, quiero orientación sobre SINTRAMUNE.')}`
   },
   {
@@ -25,7 +25,7 @@ const unions = [
     city: 'Medellín, Antioquia',
     keywords: 'clínica hospital salud seguridad social prado las vegas trabajadores salud',
     description: 'Organización de trabajadoras y trabajadores del sector salud y la seguridad social.',
-    logo: 'assets/sindicatos/sintrasass-transparente.png',
+    logo: 'sintrasass-transparente.png',
     contact: `https://wa.me/${FACTOR_C_WHATSAPP}?text=${encodeURIComponent('Hola, quiero orientación sobre SINTRASASS Subdirectiva Medellín.')}`
   },
   {
@@ -34,7 +34,7 @@ const unions = [
     city: 'Medellín, Antioquia',
     keywords: 'licorera fábrica licores antioquia industria bebidas producción trabajadores bebidas alcohólicas',
     description: 'Sindicato del sector industrial con énfasis en negociación colectiva y defensa del trabajo digno.',
-    logo: 'assets/sindicatos/sintrabecolicas.jpg',
+    logo: 'sintrabecolicas.jpg',
     contact: `https://wa.me/${FACTOR_C_WHATSAPP}?text=${encodeURIComponent('Hola, quiero orientación sobre SINTRABECÓLICAS Subdirectiva Medellín.')}`
   },
   {
@@ -43,7 +43,7 @@ const unions = [
     city: 'Colombia',
     keywords: 'sena educación formación profesional instructores aprendices servidores sindicato del sena público',
     description: 'Sindicato del SENA para la defensa de los derechos laborales, la formación pública y el diálogo social.',
-    logo: 'assets/sindicatos/sindesena.jpeg',
+    logo: 'sindesena.jpeg',
     contact: `https://wa.me/${FACTOR_C_WHATSAPP}?text=${encodeURIComponent('Hola, quiero orientación sobre SINDESENA.')}`
   },
   {
@@ -52,7 +52,7 @@ const unions = [
     city: 'Colombia / INVIMA',
     keywords: 'invima salud pública medicamentos alimentos vigilancia sanitaria servidores públicos sintrainvima instituto nacional',
     description: 'Sindicato nacional de trabajadoras y trabajadores del INVIMA, orientado a la defensa del empleo público y la salud pública.',
-    logo: 'assets/sindicatos/sintrainvima.png',
+    logo: 'sintrainvima.png',
     contact: `https://wa.me/${FACTOR_C_WHATSAPP}?text=${encodeURIComponent('Hola, quiero orientación sobre SINTRAINVIMA.')}`
   },
   {
@@ -61,7 +61,7 @@ const unions = [
     city: 'Medellín, Antioquia',
     keywords: 'sindicato unitario nacional trabajadores estado sunet subdirectiva medellín medellin servidores públicos estado sector público',
     description: 'SUNET Subdirectiva Medellín: organización sindical del sector estatal orientada a la unidad, la organización y la defensa del empleo público.',
-    logo: 'assets/sindicatos/sunet.jpeg',
+    logo: 'sunet.jpeg',
     contact: `https://wa.me/${FACTOR_C_WHATSAPP}?text=${encodeURIComponent('Hola, quiero orientación sobre SUNET Subdirectiva Medellín.')}`
   },
 
@@ -71,7 +71,7 @@ const unions = [
     city: 'Antioquia / Comfenalco',
     keywords: 'unión sindical salud comfenalco sindicato salud caja compensación trabajadores salud comfenalco',
     description: 'Organización sindical de trabajadoras y trabajadores del sector salud vinculados a Comfenalco, orientada a la defensa del trabajo digno y la organización colectiva.',
-    logo: 'assets/sindicatos/union-sindical-salud-comfenalco.png',
+    logo: 'union-sindical-salud-comfenalco.png',
     contact: `https://wa.me/${FACTOR_C_WHATSAPP}?text=${encodeURIComponent('Hola, quiero orientación sobre Unión Sindical Salud Comfenalco.')}`
   },
   {
@@ -80,7 +80,7 @@ const unions = [
     city: 'Colombia',
     keywords: 'call center vigilancia aseo tercerización servicios generales bpo crear sindicato afiliación organización sindical',
     description: 'Si en tu empresa no hay sindicato, CFC puede orientarte sobre organización, afiliación y rutas jurídicas.',
-    logo: 'assets/logo-redondo-cfc.png',
+    logo: 'logo-redondo-cfc.png',
     contact: `https://wa.me/${FACTOR_C_WHATSAPP}?text=${encodeURIComponent('Hola, quiero orientación para crear o fortalecer un sindicato.')}`
   }
 ];
