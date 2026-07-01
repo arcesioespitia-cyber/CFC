@@ -8663,19 +8663,6 @@ const unions = [
     contact: `https://wa.me/${FACTOR_C_WHATSAPP}?text=${encodeURIComponent("Hola, quiero orientación sobre Sindicato por crear o fortalecer.")}`
   }
 ];
-const unionCount = document.getElementById('unionCount');
-
-function updateUnionCount(total) {
-  if (!unionCount) return;
-
-  if (total === 0) {
-    unionCount.textContent = 'No se encontraron sindicatos con esos filtros';
-  } else if (total === 1) {
-    unionCount.textContent = 'Mostrando 1 sindicato';
-  } else {
-    unionCount.textContent = `Mostrando ${total} sindicatos`;
-  }
-};
 
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
@@ -8739,6 +8726,21 @@ function renderUnions() {
     const matchesCity = !city || cityText.includes(city) || searchText.includes(city);
     const matchesKeyword = !keyword || searchText.includes(keyword);
     return matchesSector && matchesCity && matchesKeyword;
+
+const unionCount = document.getElementById('unionCount');
+
+function updateUnionCount(total) {
+  if (!unionCount) return;
+
+  if (total === 0) {
+    unionCount.textContent = 'No se encontraron sindicatos con esos filtros';
+  } else if (total === 1) {
+    unionCount.textContent = 'Mostrando 1 sindicato';
+  } else {
+    unionCount.textContent = `Mostrando ${total} sindicatos`;
+  }
+};
+
   });
 
   if (!filtered.length) {
