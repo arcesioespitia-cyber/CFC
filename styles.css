@@ -550,3 +550,40 @@ input:focus, select:focus, textarea:focus { border-color:var(--primary); box-sha
   .page-visual-photo { max-height: none; }
   .quick-access a { min-width: 0; }
 }
+
+.finder-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid rgba(58, 30, 24, 0.12);
+  box-shadow: 0 12px 30px rgba(58, 30, 24, 0.08);
+}
+
+#unionCount {
+  font-weight: 800;
+  color: #351b14;
+}
+
+.btn-small {
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .finder-status {
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 1.25rem;
+  }
+
+  .finder-status .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
